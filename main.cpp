@@ -12,7 +12,7 @@ int main()
         std::cout << "Ertek: " << b[i] << std::endl;        //javitas: std::cout << "Ertek: " << b[i] << std::endl;
     };                                                      //javitas: };
     std::cout << "Atlag szamitasa: " << std::endl;
-    int atlag = 0                                           //javitas: int atlag = 0;
+    int atlag = 0;                                          //javitas: int atlag = 0;
     for (int i = 0; i < N_ELEMENTS, i++)
     {
         atlag += b[i];                                      //javitas: atlag += b[i];
